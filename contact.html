@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; order - Sushila Phool Bhandar, Kalkaji</title>
+<meta name="description" content="Call, WhatsApp or send an order enquiry to Sushila Phool Bhandar. Shop No. 4, Gate No. 2, Kalkaji Mandir Road, New Delhi 110019.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@300;400;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<header class="hd">
+  <div class="hd-inner wrap">
+    <div class="hd-name">
+      <a href="index.html"><h1>Sushila Phool Bhandar</h1></a>
+      <p class="hd-hindi">सुशीला फूल भण्डार</p>
+      <p class="hd-sub">gajra &middot; veni &middot; mala &middot; shaadi ke phool</p>
+    </div>
+    <div class="hd-ph">
+      <span class="lbl">Call or WhatsApp</span>
+      <a href="tel:+919811000000">+91 98110 00000</a>
+      <span class="lbl openflag" id="openNow">Kalkaji Mandir, Gate 2</span>
+    </div>
+  </div>
+</header>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="phool.html">Phool &amp; Rates</a>
+    <a href="contact.html" class="on">Contact</a>
+  </div>
+</nav>
+
+<div class="gajra-line"></div>
+
+<main>
+
+<section class="wrap sec">
+  <h3 class="sec-h">Contact us</h3>
+  <p class="sec-note">Easiest thing is to just call. If you are ordering for a function
+  and want to write everything down properly, use the form below - it will open WhatsApp
+  with your message already typed out.</p>
+
+  <div class="two-col" style="margin-top:26px">
+
+    <div class="form-box">
+      <h4 style="margin-top:0;color:#2f5134;font-size:21px;">Order enquiry</h4>
+      <div class="formnote">This form does not go to any email. When you press send it
+      opens WhatsApp with your details filled in, and you send it from there. That way
+      Rakesh gets it on his phone straight away.</div>
+
+      <!-- TODO: ask Rakesh if he wants a second number added here for Pooja -->
+      <form id="enq" novalidate>
+        <div class="field" id="f-name">
+          <label for="nm">Your name <span class="req">*</span></label>
+          <input type="text" id="nm" name="nm" autocomplete="name">
+          <p class="err">Please write your name.</p>
+        </div>
+
+        <div class="field" id="f-ph">
+          <label for="ph">Phone number <span class="req">*</span></label>
+          <input type="tel" id="ph" name="ph" inputmode="numeric" autocomplete="tel" placeholder="10 digits">
+          <p class="err">Please put a 10 digit mobile number.</p>
+        </div>
+
+        <div class="field">
+          <label for="need">What do you need?</label>
+          <select id="need" name="need">
+            <option>Gajra</option>
+            <option>Veni / juda phool</option>
+            <option>Mala or varmala</option>
+            <option>Pooja flowers</option>
+            <option>Shaadi or function decoration</option>
+            <option>Daily supply for shop or office</option>
+            <option>Something else</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="dt">Which day do you need it?</label>
+          <input type="date" id="dt" name="dt">
+          <p class="hint">Leave it empty if you are just asking the rate.</p>
+        </div>
+
+        <div class="field" id="f-msg">
+          <label for="msg">Details <span class="req">*</span></label>
+          <textarea id="msg" name="msg" placeholder="How many, what colour, where it has to be delivered..."></textarea>
+          <p class="err">Please write a line or two about what you need.</p>
+        </div>
+
+        <button type="submit" class="btn">Send on WhatsApp</button>
+        <p class="hint" style="margin-top:10px">Or just call <a href="tel:+919811000000">+91 98110 00000</a> between 6 am and 9 pm.</p>
+      </form>
+
+      <div class="sent" id="sent">
+        <b>WhatsApp should have opened in a new tab.</b>
+        <p style="margin-bottom:0">If it did not open, your browser may have blocked the
+        popup. Please call us on <a href="tel:+919811000000">+91 98110 00000</a> instead.</p>
+      </div>
+    </div>
+
+    <div>
+      <h4 style="color:#2f5134;font-size:21px;margin-top:0;">The stall</h4>
+      <p class="addr">
+        Shop No. 4, outside Gate No. 2<br>
+        Kalkaji Mandir Road<br>
+        New Delhi - 110019
+      </p>
+
+      <p><b>Phone / WhatsApp</b><br>
+      <a href="tel:+919811000000">+91 98110 00000</a></p>
+
+      <h4 style="color:#2f5134;font-size:20px;margin-bottom:6px;">Timings</h4>
+      <table class="hr-table">
+        <tr><td>Monday to Sunday</td><td>5:30 am - 9:30 pm</td></tr>
+        <tr><td>Tuesday</td><td>5:00 am - 10:30 pm</td></tr>
+        <tr><td>Navratri</td><td>Open all night</td></tr>
+        <tr><td>Holi</td><td>Closed</td></tr>
+      </table>
+
+      <h4 style="color:#2f5134;font-size:20px;margin:26px 0 6px;">How to reach</h4>
+      <p>Come out of Kalkaji Mandir metro station from the mandir side exit and walk up
+      the road towards the gate. We are about two minutes on foot, on the left, after the
+      prasad and chunri shops. Blue tarpaulin, steel buckets outside.</p>
+      <p>If you are driving, park near the mandir parking - there is no parking right in
+      front of the stall.</p>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Kalkaji+Mandir+New+Delhi" target="_blank" rel="noopener">Open in Google Maps &rarr;</a></p>
+
+      <p class="small" style="margin-top:24px">We do not have Instagram or a Facebook
+      page yet. Rakesh says maybe next year.</p>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap ft-in">
+    <div>
+      <p class="ft-name">Sushila Phool Bhandar</p>
+      <p>Shop No. 4, Gate No. 2, Kalkaji Mandir Road, New Delhi 110019<br>
+      <a href="tel:+919811000000">+91 98110 00000</a></p>
+    </div>
+    <div class="ft-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="phool.html">Phool &amp; Rates</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="ft-small">Website made by Hitansh Bhutani as a college project, with the
+    shop's permission. The phone number on this site is a placeholder for the assignment.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
