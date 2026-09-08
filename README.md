@@ -75,11 +75,3 @@ python -m http.server 8000
 
 then go to `http://localhost:8000`.
 
-## Notes
-
-- The phone number is a placeholder (`+91 98110 00000`) because the repo is public. It
-  lives in `script.js` as `SHOP_NUMBER` and in the `tel:` links on each page.
-- No photographs yet, so the gajra on the home page and the flower divider between
-  sections are SVG. Swap them for real photos when the family sends some.
-- No logo. The shop does not have one, so the name is just set in Yatra One the way a
-  painted signboard would be.
