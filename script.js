@@ -3,7 +3,7 @@
    the search on the rate list, and the enquiry form.
    plain javascript, no jquery. */
 
-var SHOP_NUMBER = "919811000000";   // placeholder number for the college project
+var SHOP_NUMBER = "919811000000";
 
 
 /* ---------- 1. open or closed right now ---------- */

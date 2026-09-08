@@ -1,8 +1,6 @@
 /* ===========================================================
-   Sushila Phool Bhandar
-   style.css  -  written by hand, no framework
-   colours picked off a photo of the stall (thread green, the
-   marigold, and the pink of the plastic bags they use)
+   Sushila Phool Bhandar - style.css
+   green = thread, orange = genda, pink = the shop bags
    =========================================================== */
 
 :root{
@@ -493,7 +491,7 @@ details.faq p{margin:8px 0 4px;color:#4a443c;}
 }
 
 /* .ft-social{ display:flex; gap:10px; }
-   shop has no instagram yet, aunty said maybe later - leaving this here */
+   no instagram yet */
 
 /* ---------- phone / tablet ---------- */
 

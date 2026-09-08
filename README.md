@@ -45,7 +45,7 @@ everything ends in a phone call or WhatsApp.
 
 ## Colours
 
-Picked off the stall itself rather than from a palette generator.
+Taken off the stall itself.
 
 | | |
 |---|---|
@@ -77,13 +77,9 @@ then go to `http://localhost:8000`.
 
 ## Notes
 
-- **The phone number on the site is a placeholder** (`+91 98110 00000`). The real number
-  is not published here since this is a public student repo. Same number is in
-  `script.js` as `SHOP_NUMBER` if it needs changing.
-- There are no photographs yet. The gajra illustration on the home page is an SVG I drew
-  by hand, and the flower divider between the sections is also SVG. When the family
-  sends me photos of the stall I will swap them in.
-- No logo was made. The shop does not have one and the brief said not to invent one, so
-  the name is just set in Yatra One, the way a painted signboard would be.
-
-Built by Hitansh Bhutani, with the shop's permission.
+- The phone number is a placeholder (`+91 98110 00000`) because the repo is public. It
+  lives in `script.js` as `SHOP_NUMBER` and in the `tel:` links on each page.
+- No photographs yet, so the gajra on the home page and the flower divider between
+  sections are SVG. Swap them for real photos when the family sends some.
+- No logo. The shop does not have one, so the name is just set in Yatra One the way a
+  painted signboard would be.
